@@ -2,11 +2,77 @@
 <html lang="en">
 
 <head>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        h1 {
+            color: blue;
+            font-size: 2em;
+        }
+        
+        p {
+            color: blue;
+        }
+    
+        body {
+            background-color: lightgray;
+        }
+
+        .content-box {
+            padding: 20px;
+            margin: 10px;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+    
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+    
+        th {
+            background-color: #f2f2f2;
+        }
+    
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+    
+        label {
+            font-weight: bold;
+        }
+    
+        input[type="text"], input[type="email"] {
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+    
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
     <title>My First HTML Page</title>
 </head>
     
 <body>
-    <h1>Welcome to my Page</h1>
+    <h1 style="color: darkblue">Welcome to my Page</h1>
     <h2>Jesse Nyman</h2>
     <p>I'm 31 years old and I live in Nummela</p>
     <img src="../Kuvat/jesse-nyman-kasvokuva.jpg" alt="Portrait of Jesse Nyman">
@@ -20,6 +86,11 @@
     </ul>
 
     <a href="https://www.nfl.com/international">Visit NFL website</a>
+
+<div class="content-box">
+  <h3>Sample Heading</h3>
+  <p>This is a sample paragraph inside a div element.</p>
+</div>
 
     <table>
     <tr>
